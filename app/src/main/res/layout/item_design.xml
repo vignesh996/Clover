@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius=".1in"
+    app:cardElevation="@dimen/size_5dp"
+    android:layout_margin="@dimen/size_5dp">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BPMLinks"
+        android:textSize="@dimen/size_18dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/size_5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="InvoiceId"
+        android:textSize="@dimen/size_12dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/invoice_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:textSize="@dimen/size_12dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="9dp"/>
+
+    <TextView
+        android:id="@+id/invoice_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10/12/2020"
+        android:textSize="@dimen/size_12dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="249dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="customer Name :"
+        android:textSize="@dimen/size_12dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/size_5dp"
+        android:layout_marginTop="@dimen/size_30dp"/>
+
+    <TextView
+        android:id="@+id/customer_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vignesh"
+        android:textSize="@dimen/size_12dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="@dimen/size_30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payable Amount :"
+        android:textSize="@dimen/size_12dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="200"
+        android:textSize="@dimen/size_12dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$"
+        android:textSize="@dimen/size_12dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product code :"
+        android:textSize="@dimen/size_12dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="70dp"/>
+
+    <TextView
+        android:id="@+id/product_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sgdjd"
+        android:textSize="@dimen/size_12dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="70dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/pay_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PAY"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="55dp"
+        android:textSize="@dimen/size_12dp"
+        android:background="@color/green"/>
+
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>
